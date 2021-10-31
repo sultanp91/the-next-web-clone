@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nav {
+  background-color: #f7f8f8;
+  padding: 1rem 1.5rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-logo {
+  height: 4rem;
+}
+
+.nav-main {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-center {
+  justify-content: center;
+}
