@@ -66,7 +66,7 @@ ul {
 /* Main header section */
 
 .main-header-container {
-  padding: 5rem 0;
+  padding: 3rem 0 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
