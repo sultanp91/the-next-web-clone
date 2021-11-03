@@ -218,3 +218,17 @@ ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
+/* Latest Stories */
+
+.latest-stories {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+}
+
+.latest-stories-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
