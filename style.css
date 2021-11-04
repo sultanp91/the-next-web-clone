@@ -201,8 +201,6 @@ ul {
 .popular-articles {
   background-color: #f7f8f8;
   padding: 8rem 0;
-  max-width: 95%;
-  margin: 0 auto;
 }
 
 .popular-articles h2 {
@@ -215,6 +213,8 @@ ul {
 }
 
 .popular-articles-container {
+  max-width: 95%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
@@ -231,4 +231,43 @@ ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+}
+
+/* Explore channels */
+.explore-channels {
+  background-color: #f7f8f8;
+  min-height: 60vh;
+  padding: 5rem 0;
+}
+
+.explore-channels-container {
+  max-width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+
+.explore-channels-container div {
+  height: 20rem;
+  background-size: cover;
+  overflow-x: scroll;
+}
+
+.explore-channels-1 {
+  background-image: url(/images/channels1.webp);
+}
+
+.explore-channels-2 {
+  background-image: url(/images/channels2.jpeg);
+}
+
+.explore-channels-3 {
+  background-image: url(/images/channels3.jpeg);
+}
+.explore-channels-4 {
+  background-image: url(/images/channels4.jpeg);
+}
+.explore-channels-5 {
+  background-image: url(/images/channels5.webp);
 }
