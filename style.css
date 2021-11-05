@@ -251,9 +251,24 @@ ul {
 .explore-channels-container div {
   height: 20rem;
   background-size: cover;
-  overflow-x: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.explore-channels div img {
+  width: 12rem;
+  display: block;
+  margin: 3rem auto;
 }
 
+.explore-channels div p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+  text-align: center;
+}
 .explore-channels-1 {
   background-image: url(/images/channels1.webp);
 }
