@@ -13,11 +13,16 @@ html {
   src: url(/avalon/Avalon_Bold.ttf);
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Nav  */
 
 .header {
   position: sticky;
   top: 0px;
+  z-index: 3;
 }
 
 .nav {
@@ -258,6 +263,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-x: scroll;
 }
 .explore-channels div img {
   width: 12rem;
@@ -294,7 +300,7 @@ ul {
 /* Parralax form  */
 
 .parralax-form {
-  padding: 30vh 0 30vh;
+  padding: 20vh 0 20vh;
   background-image: url(/images/space.png);
   background-size: cover;
   background-attachment: fixed;
@@ -320,4 +326,71 @@ ul {
 .social-link-image:hover {
   fill: #fff;
   cursor: pointer;
+}
+
+/* Video content section */
+
+.video-content {
+  background-color: #f7f8f8;
+  padding: 8rem 0 7rem;
+}
+
+.video-content h2 {
+  font-size: 4rem;
+  width: 80%;
+  margin: 0 auto 3rem;
+}
+
+.video-content-container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 70rem;
+  display: flex;
+}
+
+.iframe-container h3 {
+  color: #fff;
+  font-size: 3rem;
+  margin: 3rem 2rem 0.5rem;
+}
+
+.iframe-container p {
+  color: #a7aab2;
+  font-size: 1rem;
+  margin: 0.5rem 2rem;
+}
+
+.iframe-container {
+  height: 60rem;
+  height: 100%;
+  flex-grow: 2;
+  vertical-align: top;
+  background-color: #000;
+}
+
+.video-iframe {
+  height: 80%;
+  width: 100%;
+}
+
+.related-videos {
+  width: 25rem;
+  height: 100%;
+  margin-left: 2rem;
+  overflow-y: scroll;
+}
+
+.related-video-item:first-child {
+  margin-top: -2rem;
+}
+
+.related-video-item img {
+  clip-path: inset(20px 0px 20px 0px);
+  width: 100%;
+}
+
+.related-video-item p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: -0.5rem 0 0;
 }
