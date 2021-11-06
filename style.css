@@ -286,3 +286,21 @@ ul {
 .explore-channels-5 {
   background-image: url(/images/channels5.webp);
 }
+
+/* Parralax form  */
+
+.parralax-form {
+  padding: 30vh 0 30vh;
+  background-image: url(/images/space.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parralax-form h1 {
+  color: white;
+  text-align: center;
+}
