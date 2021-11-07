@@ -209,7 +209,7 @@ ul {
 
 .popular-articles {
   background-color: #f7f8f8;
-  padding: 8rem 0;
+  padding: 4rem 0 10rem;
 }
 
 .popular-articles h2 {
@@ -219,6 +219,7 @@ ul {
   font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
+  padding: 5rem 0;
 }
 
 .popular-articles-container {
@@ -226,6 +227,33 @@ ul {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+}
+
+.popular-articles-item {
+  min-height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.popular-articles-item a,
+.popular-articles-item a:link,
+.popular-articles-item a:visited {
+  width: 80%;
+  text-decoration: none;
+  font-size: 1.7em;
+  color: #000;
+}
+
+.popular-articles-item a:hover {
+  text-decoration: underline rgba(204, 0, 153, 0.33) solid;
+}
+
+.popular-articles-item span {
+  vertical-align: top;
+  width: 15%;
+  margin-left: 2rem;
+  font-size: 4rem;
+  color: #c09;
 }
 
 /* Latest Stories */
