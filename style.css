@@ -274,9 +274,15 @@ ul {
 .explore-channels {
   background-color: #f7f8f8;
   min-height: 60vh;
-  padding: 5rem 0;
+  padding: 5rem 0 7rem;
 }
-
+.explore-channels-heading {
+  font-family: "Avalon Bold", sans-serif;
+  font-size: 4rem;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 4rem 0 6rem;
+}
 .explore-channels-container {
   max-width: 95%;
   margin: 0 auto;
