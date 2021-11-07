@@ -338,7 +338,7 @@ ul {
 .video-content h2 {
   font-size: 4rem;
   width: 80%;
-  margin: 0 auto 3rem;
+  margin: 0 auto 5rem;
 }
 
 .video-content-container {
@@ -378,6 +378,10 @@ ul {
   height: 100%;
   margin-left: 2rem;
   overflow-y: scroll;
+}
+
+.related-video-item {
+  cursor: pointer;
 }
 
 .related-video-item:first-child {
