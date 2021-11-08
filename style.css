@@ -432,3 +432,51 @@ ul {
   font-weight: 500;
   margin: -0.5rem 0 0;
 }
+
+/* Work with us section */
+
+.work-with-us {
+  padding: 10rem 0;
+}
+
+.work-with-us-container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.work-with-us-text {
+  width: 50%;
+}
+
+.work-with-us-text h4 {
+  font-family: "shentox-5", sans-serif;
+  font-size: 1.6rem;
+  color: #cc0099;
+}
+
+.work-with-us-text h2 {
+  font-family: "Avalon Bold";
+  font-size: 4rem;
+  letter-spacing: -0.1rem;
+  padding: 1rem 0 2.5rem;
+}
+
+.work-with-us-images {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.work-with-us-image-container {
+  display: flex;
+  align-items: center;
+}
+.work-with-us-image-container img {
+  width: 12rem;
+}
+
+.work-with-us-image-container h4 {
+  margin-left: 2rem;
+  font-size: 1.8rem;
+}
