@@ -443,6 +443,7 @@ ul {
   max-width: 80%;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
 .work-with-us-text {
@@ -459,7 +460,29 @@ ul {
   font-family: "Avalon Bold";
   font-size: 4rem;
   letter-spacing: -0.1rem;
-  padding: 1rem 0 2.5rem;
+  padding: 1rem 0 2rem;
+}
+
+.work-with-us-text p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 2.7rem;
+  color: #505666;
+  padding: 0.5rem 3rem 3rem 0;
+}
+
+.work-with-us-text button {
+  padding: 1.5rem 2.5rem;
+  background-color: #00cccb;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.work-with-us-text button:hover {
+  background-color: #0dd;
 }
 
 .work-with-us-images {
@@ -473,7 +496,7 @@ ul {
   align-items: center;
 }
 .work-with-us-image-container img {
-  width: 12rem;
+  width: 11rem;
 }
 
 .work-with-us-image-container h4 {
