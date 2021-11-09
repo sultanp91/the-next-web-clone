@@ -356,6 +356,24 @@ ul {
   gap: 2rem;
 }
 
+.latest-stories-heading {
+  font-family: "Avalon Bold";
+  font-size: 4rem;
+  padding: 5rem 0;
+}
+
+.latest-stories-items img {
+  width: 100%;
+}
+.latest-stories-items h3 {
+  font-size: 1.6rem;
+  padding: 2rem 0;
+}
+
+.latest-stories-items h3:hover {
+  text-decoration: underline rgba(204, 0, 153, 0.33) solid;
+}
+
 @media screen and (max-width: 1024px) {
   .latest-stories-container {
     grid-template-columns: 1fr 1fr;
@@ -550,6 +568,45 @@ ul {
   font-size: 1.6rem;
   font-weight: 500;
   margin: -0.5rem 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .video-content-container {
+    max-width: 95%;
+  }
+  .video-content h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video-content-container {
+    flex-direction: column;
+  }
+
+  .iframe-container {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .related-videos {
+    display: grid;
+    grid-template-columns: repeat(10, 30rem);
+    gap: 2rem;
+    width: 100%;
+    margin-left: 0rem;
+    overflow-x: scroll;
+  }
+
+  .related-video-item img {
+    clip-path: inset(30px 0px 30px 0px);
+    width: 100%;
+  }
+  .related-video-item:first-child {
+    margin-top: 0rem;
+  }
 }
 
 /* Work with us section */
