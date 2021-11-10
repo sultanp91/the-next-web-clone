@@ -67,6 +67,14 @@ ul {
   text-transform: uppercase;
 }
 
+.mail-logo {
+  color: #cccfd3;
+  cursor: pointer;
+}
+.mail-logo:hover {
+  color: #000;
+}
+
 .header-promo {
   padding: 1.5rem 2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -364,10 +372,12 @@ ul {
 
 .latest-stories-items img {
   width: 100%;
+  cursor: pointer;
 }
 .latest-stories-items h3 {
   font-size: 1.6rem;
   padding: 2rem 0;
+  cursor: pointer;
 }
 
 .latest-stories-items h3:hover {
@@ -380,8 +390,32 @@ ul {
   }
 }
 @media screen and (max-width: 768px) {
+  .latest-stories {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3rem 0.5rem;
+  }
+
+  .latest-stories-heading {
+    padding: 5rem 2rem;
+  }
+
   .latest-stories-container {
     grid-template-columns: 1fr;
+  }
+  .latest-stories-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .latest-stories-items img {
+    width: 20rem;
+    clip-path: circle(30% at 50% 50%);
+    margin-left: -3rem;
+  }
+  .latest-stories-items h3 {
+    flex-grow: 2;
+    text-align: left;
   }
 }
 
@@ -681,7 +715,8 @@ ul {
 }
 
 .work-with-us-partners {
-  width: 120rem;
+  width: 90%;
+  max-width: 120rem;
   margin: 4rem auto;
   padding: 0 3rem;
   display: grid;
