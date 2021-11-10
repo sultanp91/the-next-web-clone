@@ -714,6 +714,54 @@ ul {
   font-size: 1.8rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .work-with-us {
+    padding: 8rem 0 1rem;
+  }
+  .work-with-us-container {
+    max-width: 95%;
+  }
+
+  .work-with-us-image-container img {
+    width: 8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .work-with-us-container {
+    max-width: 95%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .work-with-us-text h2 {
+    font-size: 2.8rem;
+  }
+
+  .work-with-us-text {
+    margin-bottom: 4rem;
+  }
+  .work-with-us-text,
+  .work-with-us-images {
+    width: 100%;
+  }
+
+  .work-with-us-image-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .work-with-us-image-container img {
+    width: 8rem;
+  }
+
+  .work-with-us-image-container h4 {
+    margin: 2rem 0;
+    text-align: left;
+  }
+}
+
+/* Work with us partners */
+
 .work-with-us-partners {
   width: 90%;
   max-width: 120rem;
@@ -735,5 +783,88 @@ ul {
   }
   .work-with-us-partners img {
     width: 30%;
+  }
+}
+
+/* Footer */
+
+.footer {
+  background-color: #000;
+  padding: 6rem 0;
+}
+
+.footer-container {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.footer-left,
+.footer-right {
+  flex: 1 1 50%;
+}
+/* Footer left */
+
+.footer-logo {
+  height: 4rem;
+  margin: 1.5rem 0;
+}
+
+.footer-left-heading {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 200;
+}
+
+.footer-left-social-links {
+  margin-top: 4rem;
+}
+
+.footer-left-social-links .social-link-image {
+  fill: #7f7f7f;
+}
+.footer-left-social-links .social-link-image:hover {
+  fill: #fff;
+}
+.footer-left-social-links .social-link-image:first-of-type {
+  margin-left: 0;
+}
+
+/* Footer Right  */
+
+.footer-right {
+  display: flex;
+}
+
+.footer-right-1,
+.footer-right-2 {
+  flex: 1 1 50%;
+}
+
+.footer-right-heading {
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-links li {
+  font-size: 1.6rem;
+  color: #00cccc;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-left {
+    margin-bottom: 2rem;
   }
 }
