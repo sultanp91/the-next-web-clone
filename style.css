@@ -726,3 +726,14 @@ ul {
 .work-with-us-partners img {
   width: 85%;
 }
+
+@media screen and (max-width: 1024px) {
+  .work-with-us-partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .work-with-us-partners img {
+    width: 30%;
+  }
+}
