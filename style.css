@@ -490,6 +490,7 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   overflow-x: scroll;
+  cursor: pointer;
 }
 .explore-channels div img {
   width: 12rem;
@@ -956,6 +957,7 @@ ul {
   font-size: 1.6rem;
   color: #00cccc;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .footer-hr {
