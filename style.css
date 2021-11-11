@@ -566,7 +566,6 @@ ul {
 }
 
 .iframe-container {
-  height: 60rem;
   height: 100%;
   flex-grow: 2;
   vertical-align: top;
@@ -619,11 +618,17 @@ ul {
 @media screen and (max-width: 768px) {
   .video-content-container {
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .iframe-container {
     width: 100%;
     margin-bottom: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .iframe-container h3 {
+    font-size: 1.8rem;
   }
   .related-videos {
     display: grid;
