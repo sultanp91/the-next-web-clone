@@ -392,6 +392,34 @@ ul {
   text-decoration: underline rgba(204, 0, 153, 0.33) solid;
 }
 
+.latest-stories-button {
+  display: block;
+  font-size: 1.4rem;
+  margin: 4rem auto 6rem;
+  position: relative;
+  padding: 1.5rem 3.5rem;
+  background-color: transparent;
+  border: solid 1px #d2d5d8;
+  border-radius: 2.6rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button-arrow {
+  position: absolute;
+  height: 1.6rem;
+  right: 1.8rem;
+  transition: all 0.3s ease;
+}
+
+.latest-stories-button:hover {
+  border: solid 1px #505666;
+}
+.latest-stories-button:hover .button-arrow {
+  transform: translateX(0.3rem);
+}
+
 @media screen and (max-width: 1024px) {
   .latest-stories-container {
     grid-template-columns: 1fr 1fr;
