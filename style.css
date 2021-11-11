@@ -10,7 +10,7 @@ html {
 
 @font-face {
   font-family: "Avalon Bold";
-  src: url(/avalon/Avalon_Bold.ttf);
+  src: url(./avalon/Avalon_Bold.ttf);
 }
 
 body {
@@ -202,7 +202,7 @@ ul {
 
 .article-2 {
   background-image: linear-gradient(180deg, transparent 25%, #000 90%),
-    url(/images/article2.jpeg);
+    url(./images/article2.jpeg);
   grid-column: 1 / 2;
   grid-row: 4 / 6;
   font-size: 1.8rem;
@@ -225,7 +225,7 @@ ul {
 
 .article-3 {
   background-image: linear-gradient(180deg, transparent 25%, #000 90%),
-    url(/images/article3.jpeg);
+    url(./images/article3.jpeg);
   grid-column: 2 / 3;
   grid-row: 1 / 3;
   font-size: 1.4rem;
@@ -233,7 +233,7 @@ ul {
 
 .article-4 {
   background-image: linear-gradient(180deg, transparent 25%, #000 90%),
-    url(/images/article4.jpeg);
+    url(./images/article4.jpeg);
   grid-column: 3 / 4;
   grid-row: 1 / 3;
   font-size: 1.4rem;
@@ -241,7 +241,7 @@ ul {
 
 .article-5 {
   background-image: linear-gradient(180deg, transparent 25%, #000 90%),
-    url(/images/article5.jpeg);
+    url(./images/article5.jpeg);
   grid-column: 2 / 4;
   grid-row: 3 / 6;
   font-size: 2.4rem;
@@ -507,28 +507,28 @@ ul {
   text-align: center;
 }
 .explore-channels-1 {
-  background-image: url(/images/channels1.webp);
+  background-image: url(./images/channels1.webp);
 }
 
 .explore-channels-2 {
-  background-image: url(/images/channels2.jpeg);
+  background-image: url(./images/channels2.jpeg);
 }
 
 .explore-channels-3 {
-  background-image: url(/images/channels3.jpeg);
+  background-image: url(./images/channels3.jpeg);
 }
 .explore-channels-4 {
-  background-image: url(/images/channels4.jpeg);
+  background-image: url(./images/channels4.jpeg);
 }
 .explore-channels-5 {
-  background-image: url(/images/channels5.webp);
+  background-image: url(./images/channels5.webp);
 }
 
 /* Parralax form  */
 
 .parralax-form {
   padding: 10rem 0 10rem;
-  background-image: url(/images/space.png);
+  background-image: url(./images/space.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: 50%;
