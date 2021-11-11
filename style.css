@@ -510,6 +510,39 @@ ul {
   padding: 1rem 0;
 }
 
+.form-input {
+  display: flex;
+  height: 5rem;
+  width: 90%;
+  max-width: 60rem;
+  margin: 2rem auto 3rem;
+  position: relative;
+}
+
+.form-input input {
+  flex: 1 1 100%;
+  border: none;
+  padding: 0.5rem 0;
+  font-size: 1.8rem;
+  text-indent: 3.5rem;
+}
+
+.form-input button {
+  border: none;
+  flex: 0 0 10rem;
+  background-color: #cc0199;
+  color: #fff;
+}
+
+.form-logo {
+  position: absolute;
+  font-size: 1.8rem;
+  color: #c5c6cb;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .parralax-form a,
 .parralax-form a:visited {
   text-decoration: none;
@@ -520,7 +553,9 @@ ul {
   color: #fff;
   font-weight: 500;
 }
-
+.parralax-form-social-links {
+  text-align: center;
+}
 .social-link-image {
   fill: #947fb7;
   height: 2.5rem;
