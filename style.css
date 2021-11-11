@@ -27,7 +27,7 @@ body {
 
 .nav {
   background-color: #f7f8f8;
-  padding: 1rem 1.5rem;
+  padding: 0 1.5rem;
   box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.2);
 }
 
@@ -55,16 +55,27 @@ ul {
 .nav-main {
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .nav-center {
   justify-content: center;
+  height: 100%;
 }
 .nav-center li {
-  padding: 0 2rem;
+  padding: 1.5rem 2rem;
   font-family: "shentox-5", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
+  display: block;
+  height: 100%;
+  cursor: pointer;
+}
+.nav-center li:first-of-type {
+  background-color: #fff;
+}
+.nav-center li:hover {
+  background-color: #fff;
 }
 
 .mail-logo {
@@ -813,6 +824,12 @@ ul {
 
 .work-with-us-partners img {
   width: 85%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.work-with-us-partners img:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1024px) {
@@ -849,6 +866,7 @@ ul {
 .footer-logo {
   height: 4rem;
   margin: 1.5rem 0;
+  cursor: pointer;
 }
 
 .footer-left-heading {
@@ -921,6 +939,10 @@ ul {
   color: #fff;
   cursor: pointer;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-bottom-text a:hover {
+  color: #c09;
 }
 
 @media screen and (max-width: 1024px) {
