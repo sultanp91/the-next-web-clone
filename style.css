@@ -55,12 +55,10 @@ ul {
 .nav-main {
   justify-content: space-between;
   align-items: center;
-  height: 100%;
 }
 
 .nav-center {
   justify-content: center;
-  height: 100%;
 }
 .nav-center li {
   padding: 1.5rem 2rem;
@@ -68,7 +66,6 @@ ul {
   font-size: 1.4rem;
   text-transform: uppercase;
   display: block;
-  height: 100%;
   cursor: pointer;
 }
 .nav-center li:first-of-type {
@@ -543,6 +540,10 @@ ul {
   flex: 0 0 10rem;
   background-color: #cc0199;
   color: #fff;
+  cursor: pointer;
+}
+.form-input button:hover {
+  background-color: #4cacff;
 }
 
 .form-logo {
@@ -552,6 +553,10 @@ ul {
   left: 1rem;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.form-logo:hover {
+  color: #7f7f7f;
 }
 
 .parralax-form a,
