@@ -803,6 +803,7 @@ ul {
   width: 90%;
   margin: 0 auto;
   display: flex;
+  padding-bottom: 2rem;
 }
 .footer-left,
 .footer-right {
@@ -863,6 +864,28 @@ ul {
   font-size: 1.6rem;
   color: #00cccc;
   margin-bottom: 1rem;
+}
+
+.footer-hr {
+  color: #505666;
+  size: 1px;
+}
+
+.footer-bottom-text {
+  padding: 4rem 0 1rem;
+
+  border-top: solid 1px #505666;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: #a7aab2;
+}
+
+.footer-bottom-text a {
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1024px) {
